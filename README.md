@@ -2,13 +2,13 @@
 
 > Automated ETL pipeline built using Python, MySQL and Power BI that processes over 540k retail transactions.
 
-Features:
-✔ Data Validation
-✔ Data Cleaning
-✔ Feature Engineering
-✔ SQL Analytics
-✔ Interactive Dashboard
-✔ Automated Pipeline.
+Features:  
+- Data Validation  
+- Data Cleaning  
+- Feature Engineering  
+- SQL Analytics  
+- Interactive Dashboard  
+- Automated Pipeline.
 
 ---
 ## Dashboard Preview
@@ -365,7 +365,7 @@ Sales_Data_Pipeline/
 
 ### 1. Clone the Project Files
 ```bash
-git clone [https://github.com/Ayush-Butala/sales-data-pipeline.git](https://github.com/Ayush-Butala/sales-data-pipeline.git)
+git clone https://github.com/Ayush-Butala/sales-data-pipeline.git
 cd sales-data-pipeline
 ```
 ### 2. Install Dependencies
