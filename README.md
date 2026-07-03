@@ -365,8 +365,8 @@ Sales_Data_Pipeline/
 
 ### 1. Clone the Project Files
 ```bash
-git clone [https://github.com/yourusername/Sales_Data_Pipeline.git](https://github.com/yourusername/Sales_Data_Pipeline.git)
-cd Sales_Data_Pipeline
+git clone [https://github.com/Ayush-Butala/sales-data-pipeline.git](https://github.com/Ayush-Butala/sales-data-pipeline.git)
+cd sales-data-pipeline
 ```
 ### 2. Install Dependencies
 Ensure you have Python 3.8+ installed locally, then run:
