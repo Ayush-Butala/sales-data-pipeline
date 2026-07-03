@@ -1,0 +1,44 @@
+USE sales_pipeline;
+
+-- SELECT
+-- CustomerID,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- WHERE CustomerID<>'UNKNOWN'
+-- GROUP BY CustomerID
+-- ORDER BY Revenue DESC
+-- LIMIT 10;
+-- Top Customers (id,revenue)=>
+-- 14646	279489.02
+-- 18102	256438.49
+-- 17450	187322.17
+-- 14911	132458.73
+-- 12415	123725.45
+-- 14156	113214.59
+-- 17511	88125.38
+-- 16684	65892.08
+-- 13694	62690.54
+-- 15311	59284.19
+
+-- SELECT
+-- CASE
+-- WHEN CustomerID='UNKNOWN'
+-- THEN 'Unknown'
+-- ELSE 'Known'
+-- END AS Customer_Type,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- GROUP BY Customer_Type;
+-- Revenue by Known vs Unknown Customers =>
+-- Known	8278519.42
+-- Unknown	1458549.59
+
+-- SELECT ROUND(AVG(customer_total), 2) AS Average_Revenue_Per_Customer
+-- FROM (
+--     SELECT SUM(Revenue) AS customer_total
+--     FROM sales
+--     WHERE CustomerID <> 'UNKNOWN'
+--     GROUP BY CustomerID
+-- ) t;
+-- Average Revenue Per Customer
+-- 1893.53

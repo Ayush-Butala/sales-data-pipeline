@@ -1,0 +1,92 @@
+USE sales_pipeline;
+
+-- SELECT
+-- ROUND(SUM(Revenue),2) AS Revenue_Lost
+-- FROM sales
+-- WHERE IsReturn=TRUE;
+-- Revenue Lost Due to Returns =>
+-- 893979.73
+
+-- SELECT Country,
+-- COUNT(*) AS Returns
+-- FROM sales
+-- WHERE IsReturn=TRUE
+-- GROUP BY Country
+-- ORDER BY Returns DESC;
+-- Returns by Country =>
+-- United Kingdom	7821
+-- Germany	453
+-- EIRE	301
+-- France	148
+-- USA	112
+-- Australia	74
+-- Spain	48
+-- Italy	45
+-- Belgium	38
+-- Japan	37
+-- Switzerland	35
+-- Portugal	18
+-- Malta	15
+-- Norway	14
+-- Sweden	11
+-- Poland	11
+-- Channel Islands	10
+-- Finland	10
+-- Denmark	9
+-- Netherlands	8
+-- Cyprus	8
+-- Singapore	7
+-- Czech Republic	5
+-- Hong Kong	4
+-- Austria	3
+-- Israel	2
+-- Bahrain	1
+-- Saudi Arabia	1
+-- European Community	1
+-- Greece	1
+
+-- SELECT Country,
+-- ROUND(100*SUM(IsReturn)/COUNT(*),2) AS Return_Rate
+-- FROM sales
+-- GROUP BY Country
+-- ORDER BY Return_Rate DESC;
+-- Return Percentage by Country =>
+-- USA	38.49
+-- Czech Republic	16.67
+-- Malta	11.81
+-- Japan	10.34
+-- Saudi Arabia	10.00
+-- Australia	5.88
+-- Italy	5.60
+-- Bahrain	5.26
+-- Germany	4.78
+-- EIRE	3.68
+-- Poland	3.23
+-- Singapore	3.06
+-- Sweden	2.39
+-- Denmark	2.31
+-- Spain	1.90
+-- Belgium	1.84
+-- Switzerland	1.76
+-- France	1.73
+-- European Community	1.64
+-- United Kingdom	1.60
+-- Finland	1.44
+-- Hong Kong	1.41
+-- Channel Islands	1.32
+-- Cyprus	1.31
+-- Norway	1.29
+-- Portugal	1.19
+-- Austria	0.75
+-- Israel	0.68
+-- Greece	0.68
+-- Netherlands	0.34
+-- Lebanon	0.00
+-- United Arab Emirates	0.00
+-- Iceland	0.00
+-- Lithuania	0.00
+-- Canada	0.00
+-- Unspecified	0.00
+-- Brazil	0.00
+-- RSA	0.00
+

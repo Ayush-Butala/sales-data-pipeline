@@ -1,0 +1,97 @@
+USE sales_pipeline;
+
+-- SELECT
+-- Year,Month,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- GROUP BY Year,Month,MonthNumber
+-- ORDER BY Year,MonthNumber;
+-- Revenue by Month =>
+-- 2010	December	746723.61
+-- 2011	January	558448.56
+-- 2011	February	497026.41
+-- 2011	March	682013.98
+-- 2011	April	492367.84
+-- 2011	May	722094.10
+-- 2011	June	689977.23
+-- 2011	July	680156.99
+-- 2011	August	692448.52
+-- 2011	September	1017596.68
+-- 2011	October	1069368.23
+-- 2011	November	1456145.80
+-- 2011	December	432701.06
+
+-- SELECT
+-- Year,
+-- Quarter,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- GROUP BY Year,Quarter
+-- ORDER BY Year,Quarter;
+-- Revenue by Quarter =>
+-- 2010	Q4	746723.61
+-- 2011	Q1	1737488.95
+-- 2011	Q2	1904439.17
+-- 2011	Q3	2390202.19
+-- 2011	Q4	2958215.09
+
+-- SELECT
+-- Country,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- GROUP BY Country
+-- ORDER BY Revenue DESC;
+-- Revenue by Country =>
+-- Hong Kong	9908.24
+-- Singapore	9120.39
+-- Israel	7901.97
+-- Poland	7213.14
+-- Unspecified	4740.94
+-- Greece	4710.52
+-- Iceland	4310.00
+-- Canada	3666.38
+-- Malta	2505.47
+-- United Arab Emirates	1902.28
+-- USA	1730.92
+-- Lebanon	1693.88
+-- Lithuania	1661.06
+-- European Community	1291.75
+-- Brazil	1143.60
+-- RSA	1002.31
+-- Czech Republic	707.72
+-- Bahrain	548.40
+-- Saudi Arabia	131.17
+
+-- SELECT
+-- DayOfWeek,
+-- ROUND(SUM(Revenue),2) AS Revenue
+-- FROM sales
+-- GROUP BY DayOfWeek
+-- ORDER BY Revenue DESC;
+-- Revenue by Day of Week(ranked) =>
+-- Thursday	2108701.53
+-- Tuesday	1965703.61
+-- Wednesday	1730088.43
+-- Monday	1584895.30
+-- Friday	1549020.68
+
+-- SELECT
+-- Year,Month,
+-- COUNT(*) AS Transactions
+-- FROM sales
+-- GROUP BY Year,Month,MonthNumber
+-- ORDER BY Year,MonthNumber;
+-- Monthly Transaction Count =>
+-- 2010	December	41981
+-- 2011	January	34900
+-- 2011	February	27479
+-- 2011	March	36439
+-- 2011	April	29701
+-- 2011	May	36782
+-- 2011	June	36609
+-- 2011	July	39267
+-- 2011	August	35061
+-- 2011	September	49861
+-- 2011	October	59969
+-- 2011	November	83343
+-- 2011	December	25246

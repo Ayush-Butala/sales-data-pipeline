@@ -1,0 +1,19 @@
+
+VALIDATION REPORT
+=================
+
+Total Rows: 541909
+
+Missing Customer IDs: 135080
+
+Missing Descriptions: 1454
+
+Negative Quantities: 10624
+
+Negative Prices: 2
+
+Duplicate Rows: 5268
+
+Invoices Starting With C: 9288
+
+Invoices Starting With M: 0
